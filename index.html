@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taxa metabólica basal | WE Project</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+        <header>
+            <a><img src="assets/imgs/logo 002.1.png" id="logo-top-side"></a>
+        </header>
+        <nav>
+            <a>Sobre</a>
+            <a>Quem somos</a>
+            <a>Trabalho conosco</a>
+            <a>Privacidade</a>
+            <a>Apoia-se</a>
+        </nav>
+
+        <section>
+            <main>
+                <div>
+                    <div class="TMB">TAXA METABÓLICA BASAL (TMB)</div>
+                    <div class="calculadora">
+                    <div> <!-- sexo -->
+                        Sexo*
+                        <div class="sex">
+                            <input value="Feminino" type="radio"><span>Feminino</span>
+
+                            <input value="Masculino" type="radio"><span>Masculino</span>
+                        </div>
+                    </div>
+
+                    <div> <!-- altura -->
+                        Altura*
+                        <div class="height">
+                            <input type="number" required>
+                        </div>
+                    </div>
+
+                    <div> <!-- peso -->
+                        Peso (KG)*
+                        <div class="kg">
+                            <input type="number" required>
+                        </div>
+                    </div>
+
+                    <div> <!-- anos -->
+                        Idade (anos)*
+                        <div class="years">
+                            <input type="number" required>
+                        </div>
+                    </div>
+
+                    <input class="button" type="button" value="Calcular" onclick="somar()"></div>
+                </div>
+            </main>
+        
+            <aside>
+                <img id="gym-man" src="assets/imgs/gym-man.png">
+            </aside>
+            
+        </section>
+
+</body>
+</html>

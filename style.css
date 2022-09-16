@@ -1,0 +1,93 @@
+body{
+    margin: 0 ;
+    padding: 0;
+    background-color: #181818;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+}
+
+header{
+    background-color: #1d1d1d;
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+
+}
+#logo-top-side{
+max-width: 100vw;
+max-height: 8vh;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+nav>a{
+    padding: 10px 20px;
+}
+nav>a:hover{
+    background-color: white;
+    cursor: pointer;
+    color: black;
+    border-radius: 15px;
+}
+
+section{
+    display: flex;
+    height: 76vh;
+}
+
+main{
+    display: flex;
+    width: 50vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.TMB{
+
+    padding: 15px 44px;
+}
+.calculadora{
+    display: flex;
+
+    padding: 0px 45px 60px;
+    justify-content: center;
+    flex-direction: column;
+}
+.calculadora>div{
+    padding: 10px 0px; 
+    font-size: 20px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div>input{
+    padding: 5px 40px;
+}
+
+div>.TMB{
+    background-color: blue;
+    padding: 20px 40px;
+}
+aside{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+#gym-man{
+    max-width: 500px;
+    margin-left: 50px;
+}
