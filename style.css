@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body{
     margin: 0 ;
     padding: 0;
     background-color: #181818;
     color: white;
+    font-family: 'Inter Tight', sans-serif;
+    font-size: large;
     height: 100vh;
     width: 100vw;
 }
@@ -14,9 +18,6 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    align-content: center;
-
 }
 #logo-top-side{
 max-width: 100vw;
@@ -25,9 +26,9 @@ max-height: 8vh;
 
 nav{
     display: flex;
+    height: 8vh;
     align-items: center;
     justify-content: center;
-    
 }
 nav>a{
     padding: 10px 20px;
@@ -40,54 +41,32 @@ nav>a:hover{
 }
 
 section{
+    height:max-content;
+    width: 100vw;
+    height: 80vh;
     display: flex;
-    height: 76vh;
-}
-
-main{
-    display: flex;
-    width: 50vw;
-    justify-content: center;
     align-items: center;
-    flex-direction: column;
+    justify-content: center;
 }
 
-.TMB{
-
-    padding: 15px 44px;
-}
 .calculadora{
     display: flex;
-
-    padding: 0px 45px 60px;
-    justify-content: center;
-    flex-direction: column;
-}
-.calculadora>div{
-    padding: 10px 0px; 
-    font-size: 20px;
-}
-
-.button{
-    display: flex;
-    justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 div>input{
-    padding: 5px 40px;
+    background-color: #181818;
+    border-radius: 10px;
+    color: white;
+    height: 20px;
+    border-color: white;
 }
 
-div>.TMB{
-    background-color: blue;
-    padding: 20px 40px;
+.button{
+    margin: 10px;
 }
-aside{
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-}
+
 #gym-man{
-    max-width: 500px;
-    margin-left: 50px;
+    width: 500px;
 }

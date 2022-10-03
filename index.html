@@ -22,39 +22,45 @@
         <section>
             <main>
                 <div>
-                    <div class="TMB">TAXA METABÓLICA BASAL (TMB)</div>
+                    <div class="TMB"><h1>TAXA METABÓLICA BASAL (TMB)</h1></div>
                     <div class="calculadora">
-                    <div> <!-- sexo -->
-                        Sexo*
-                        <div class="sex">
-                            <input value="Feminino" type="radio"><span>Feminino</span>
 
-                            <input value="Masculino" type="radio"><span>Masculino</span>
-                        </div>
+                    <div> <!-- sexo -->
+                        <p>Sexo*
+                            <div class="sex">
+                                
+                                <input value="Feminino" type="radio" name="radsex" id="fem">
+                                <label for="fem">Feminino</label>
+
+                                <input value="Masculino" type="radio" name="radsex" id="mas">
+                                <label for="mas">Masculino</label>
+
+                            </div>
+                        </p>
                     </div>
 
                     <div> <!-- altura -->
-                        Altura*
+                        <p>Altura*</p>
                         <div class="height">
-                            <input type="number" required>
+                            <input type="number" id="height" required>
                         </div>
                     </div>
 
                     <div> <!-- peso -->
-                        Peso (KG)*
+                        <p>Peso(KG)*</p>
                         <div class="kg">
-                            <input type="number" required>
+                            <input type="number" id="kg" required>
                         </div>
                     </div>
 
                     <div> <!-- anos -->
-                        Idade (anos)*
+                        <p>Idade (anos)*</p>
                         <div class="years">
-                            <input type="number" required>
+                            <input type="number" id="years" required>
                         </div>
                     </div>
 
-                    <input class="button" type="button" value="Calcular" onclick="somar()"></div>
+                    <a><input class="button" type="button" value="Calcular" onclick="somar()"></div></a>
                 </div>
             </main>
         
@@ -63,6 +69,8 @@
             </aside>
             
         </section>
+
+        <script src="script.js"></script>
 
 </body>
 </html>
